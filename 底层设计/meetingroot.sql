@@ -29,7 +29,7 @@ CREATE TABLE meeting_apply(
 	begin_time timestamp default current_timestamp not null comment '开始时间',
 	end_time timestamp default current_timestamp not null comment '结束时间',
 	status tinyint default 0 comment'0未审核，1通过，2未通过',
-	applytime timestamp default current_timestamp  comment '申请日期',
+	apply_time timestamp default current_timestamp  comment '申请日期',
 	apply_update_time timestamp default current_timestamp on update current_timestamp comment '修改日期'
 );
 
