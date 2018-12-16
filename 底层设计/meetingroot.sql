@@ -36,5 +36,5 @@ CREATE TABLE meeting_apply(
 CREATE TABLE attend_worders(
 	id int not null primary key auto_increment comment '编号',
 	meeting_id int not null comment'会议室id',
-	worder_id int not null comment'员工id'
+	worker_id int not null comment'员工id'
 );
